@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+*.egg-info/
+dist/
+build/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.nbconvert.*
+*.html
+*.pdf
+
+# Kaggle Data (downloaded by the notebook)
+kaggle.json
+bike-sharing-demand.zip
+train.csv
+test.csv
+sampleSubmission.csv
+submission.csv
+submission_new_features.csv
+submission_new_hpo.csv
+
+# AutoGluon Models
+AutogluonModels/
+
+# IDE specific
+.vscode/
+.idea/
+*.DS_Store
